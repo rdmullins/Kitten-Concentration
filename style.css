@@ -1,0 +1,43 @@
+body {
+    background-color: #F9E784;
+    color: #E58F65
+}
+
+h1 {
+    font-family: "Irish Grover", cursive;
+}
+
+h2 {
+    font-family: "Concert One", cursive;
+}
+
+.titlesection {
+    text-align: center;
+}
+
+.scoresection {
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.catboard {
+    display: grid;
+    grid-template-columns: 18vw 18vw 18vw 18vw 18vw;
+    grid-template-rows: 20vh 20vh 20vh 20vh;
+    border: 2px solid #E58F65;
+    font-family: "Concert One", cursive;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    width: 90vw;
+    height: 80vh;
+    align-content: center;
+}
+
+.catcard {
+    display: grid;
+    border: 2px solid #E58F65;
+    grid-column-start: auto;
+    grid-column-end: span 1;
+}
